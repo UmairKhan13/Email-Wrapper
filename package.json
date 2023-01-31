@@ -1,0 +1,27 @@
+{
+  "name": "depchip-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "serve": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depchip/depchip-mail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depchip/depchip-mail/issues"
+  },
+  "homepage": "https://github.com/depchip/depchip-mail#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12"
+  }
+}
